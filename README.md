@@ -1,6 +1,6 @@
-# TCRmat: Peptide-TCR Binding Prediction Model
+# TCRmat: Epitope-TCR Binding Prediction Model
 
-A machine learning model for predicting peptide-T cell receptor (TCR) binding interactions using Weight Matrix (PAWM) and Residue-Residue Interaction Potential Matrix (RRIPM).
+A machine learning model for predicting Epitope-T cell receptor (TCR) binding interactions using Weight Matrix (PAWM) and Residue-Residue Interaction Potential Matrix (RRIPM).
 
 ## Overview
 
