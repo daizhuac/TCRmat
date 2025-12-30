@@ -1,4 +1,4 @@
-# WPMat: Peptide-TCR Binding Prediction Model
+# TCRmat: Peptide-TCR Binding Prediction Model
 
 A machine learning model for predicting peptide-T cell receptor (TCR) binding interactions using Weight Matrix (PAWM) and Residue-Residue Interaction Potential Matrix (RRIPM).
 
@@ -19,8 +19,8 @@ This repository contains code for training and predicting peptide-TCR binding in
 │   └── RRIPM.mat             # Trained residue interaction matrix (output)
 ├── output/               # Prediction output directory
 │   └── prediction_output.csv # Prediction results (output)
-├── train_WPMat.py        # Model training script
-└── predict_WPMat.py      # Prediction script
+├── train_TCRmat.py        # Model training script
+└── predict_TCRmat.py      # Prediction script
 ```
 
 ## Requirements
@@ -50,7 +50,7 @@ Input data files (`data_train.csv` and `data_test.csv`) should contain the follo
 3. Run the training script:
 
 ```bash
-python train_WPMat.py
+python train_TCRmat.py
 ```
 
 The training process will generate two output files:
@@ -64,7 +64,7 @@ The training process will generate two output files:
 3. Run the prediction script:
 
 ```bash
-python predict_WPMat.py
+python predict_TCRmat.py
 ```
 
 Prediction results will be saved to `output/prediction_output.csv` with an additional `predicted_score` column.
